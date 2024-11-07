@@ -1,0 +1,49 @@
+{
+  "metadata": {
+    "kernelspec": {
+      "name": "python",
+      "display_name": "Python (Pyodide)",
+      "language": "python"
+    },
+    "language_info": {
+      "codemirror_mode": {
+        "name": "python",
+        "version": 3
+      },
+      "file_extension": ".py",
+      "mimetype": "text/x-python",
+      "name": "python",
+      "nbconvert_exporter": "python",
+      "pygments_lexer": "ipython3",
+      "version": "3.8"
+    }
+  },
+  "nbformat_minor": 4,
+  "nbformat": 4,
+  "cells": [
+    {
+      "cell_type": "code",
+      "source": "#exemplo 1\nnumero = 10\nif numero == 10:\n    print(\"O número é igual a 10.\")\n\n#exemplo 2\nidade = 28\nif idade < 18:\n    print('Você é menor de idade')\nelif idade == 18:\n    print('Você acabou de se tornar um adulto')\nelse:\n    print('Você é maior de idade')\n\n#exemplo 3\nx = 10\nif x > 0 and x < 20:\n    print(\"x está entre 0 e 20\")\n\n#exemplo 4\ny = 30\nif y == 25 or y == 50:\n    print(\"y é 25 ou 50\")\n\n#exemplo 5\nif (x > 10 and x < 20) or (x == 25):\n    print(\"x está em um intervalo interessante\")",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "text": "O número é igual a 10.\nVocê é maior de idade\nx está entre 0 e 20\n",
+          "output_type": "stream"
+        }
+      ],
+      "execution_count": 3
+    },
+    {
+      "cell_type": "code",
+      "source": "",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": null
+    }
+  ]
+}
